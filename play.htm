@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Chess Coffee – Where Strategy Meets Flavor.">
+    <title>Chess Coffee | Play</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/chess-coffee-logo.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/chess-coffee-logo.png">
+</head>
+
+<header >
+    <div  class="header-left">
+        <a id="tago" href="index.htm"><img src="images/chess-coffee-logo.png" alt="Chess Coffee Logo"></a>
+        <a  href="index.htm"><h1 class="brand-name">Chess Coffee</h1></a>
+    </div>
+    <nav class="nav-menu">
+        <a href="index.htm">Home</a>
+        <a href="community.htm">Community</a>
+        <a href="menu.htm">Menu</a>
+        <a href="contact.htm">Contact Us</a>
+        <a href="play.htm" class="play-btn">Play</a>
+    </nav>
+    <nav class="mobile-nav">
+        <div id="menu-links">
+            <a href="index.htm">Home</a>
+            <a href="community.htm">Community</a>
+            <a href="menu.htm">Menu</a>
+            <a href="contact.htm">Contact Us</a>
+            <a href="play.htm" class="play-btn">Play</a>
+        </div>
+        <a class="menu-icon" id="burger" onclick="hamburger()">
+            <div>&#9776;</div>
+        </a>
+    </nav>
+</header>
+
+<body class="chess">
+    <a href="https://www.nescafe.com/ph/coffees/nescafe-creamy-white" target="_blank"><h1 class="taas">Play Chess</h1></a>
+    <div id="gameboard" ></div>
+    <div class="bars">
+        <p class="p" class="turnbar">It Is <span id="player"></span>'s Turn.</p>
+        <p class="p" class="infobar" id="info-display"></p>
+        <p class="p" class="errbar" id="err"></p>
+    </div>
+
+    <script src="scripts/script.js"></script>
+    <script src="scripts/pieces.js"></script>
+    <script src="scripts/app.js"></script>
+
+    <div class="not-avail">
+        <p>
+            <strong>This feature is not available on mobile</strong>
+        </p>
+        <p>&nbsp;</p>
+        <p>
+            <a href="https://www.chess.com/home"><strong>Click here to play on other website.</strong></a>
+        </p>
+    </div>
+
+</body>
+
+<footer>
+    <div class="social">
+        <p>Follow Us:</p>
+        <a href="https://www.facebook.com/pipowe.laplana.5" target="_blank">
+            <img class="fblogo" src="images/fb-logo.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/powe_lpln/" target="_blank">
+            <img class="iglogo" src="images/ig-logo.png" alt="Instagram">
+        </a>
+        <a href="https://x.com/BINI_ph" target="_blank">
+            <img class="xlogo" src="images/x-logo.png" alt="X">
+        </a>
+        <a href="https://www.youtube.com/@carokanndefense" target="_blank">
+            <img class="ytlogo" src="images/yt-logo.png" alt="YouTube">
+        </a>
+    </div>
+    <p>&copy; 2024 Chess Coffee. All Rights Reserved.</p>
+</footer>
+
+</html>
